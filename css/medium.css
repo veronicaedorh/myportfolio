@@ -40,4 +40,14 @@
         margin-bottom: 20px;
         margin-top: 5px;
     }
+    /* <!-- -------------- Thank You-------------------------------- --> */
+    .reservation-container h3 {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    .reservation-container {
+        padding-top: 118px;
+        width: 79%;
+        margin: 0 auto;
+    }
 }

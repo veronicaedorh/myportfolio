@@ -141,4 +141,13 @@
         display: grid;
         grid-template-columns: 3fr 1fr;
     }
+    /* <!-- ------------------------------ Thank You------------------------ --> */
+    .temple-reservation-form-container {
+        width: 800px;
+    }
+    .reservation-container {
+        padding-top: 118px;
+        width: 70%;
+        margin: 0 auto;
+    }
 }
