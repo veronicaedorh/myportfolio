@@ -1,0 +1,43 @@
+@media only screen and (min-width: 545px) {
+    .hero-container {
+        padding-top: 120px;
+    }
+    div.hero {
+        height: 700px;
+    }
+    .transhero {
+        width: 545px;
+        height: 300px;
+        padding: 55px 0 0 0;
+        background: rgba(0, 61, 121, 0.9);
+        border-radius: 0px 292px 0px 0px;
+    }
+    .hero-socials {
+        padding-left: 35px;
+    }
+    .transhero h1 {
+        font-size: 45px;
+        padding-left: 35px;
+    }
+    .transhero h2 {
+        font-size: 25px;
+        padding-left: 35px;
+        margin: -45px 0 0 0;
+    }
+    .transhero p {
+        font-size: 14px;
+        padding-left: 35px;
+        width: 410px;
+        margin: 0;
+    }
+    /* <!-- ------------------------------Footer------------------------ --> */
+    .footer-container {
+        width: 850px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .footer-address-display {
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+}

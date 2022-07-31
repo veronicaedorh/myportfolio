@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edorh Veronica's Portfolio</title>
+    <meta name="description" content="Home Page" />
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+
+    <!-- fav -->
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="logo" />
+        <nav class="primary">
+            <button id="ham">&#9776;</button>
+            <ul id="menu" class="visuallyhidden">
+                <li><a id="home" href="index.html">HOME</a></li>
+                <li><a href="design.html">DESIGN</a></li>
+                <li><a href="research.html">RESEARCH</a></li>
+                <li><a href="about me.html">ABOUT ME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="temple-main">
+        <div class="reservation-container">
+            <h1>Notification</h1>
+
+            <div class="temple-reservation-form-container">
+                <h3>Message received</h3>
+                <p>
+                    We have received your message. We will reply to you via email within 48hours. Make sure to check your spam notification if you don't get a reply within the stipulated time
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-form">
+                <h3>Contact Us</h3>
+                <form action="./thankyou.html" method="get">
+                    <label>
+              FULL-NAME <input type="text" name="fullname" required
+            /></label>
+                    <label> E-MAIL <input type="email" name="email" required /></label>
+                    <label>
+              YOUR MESSAGE
+              <textarea
+                name="contact-message"
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+            </label>
+                    <input class="footer-form-button" type="submit" value="Send Message" />
+                </form>
+            </div>
+            <div class="footer-address-display">
+                <h3> Edorh Veronica </h3>
+                <div class="footer-socials">
+                    <a href=" https://www.linkedin.com/in/veronica-edorh-9800791b3"><img src="./images/LinkedIn.png" alt="Linkedin Icon"></a>
+                    <a href="https://twitter.com/teenybellz"><img src="./images/Twitter.png" alt="Twitter Icon"></a>
+                    <a href="https://www.instagram.com/teenybellz/"><img src="./images/Instagram.png" alt="instagram" /></a>
+                    <div class="footer-phone">
+                        <img src="./images/Phone.png" alt="phone" />
+                        <p>+234 706 289 3173</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <p class="copyright">
+            <span id="copyright-year"> ©2022 </span> | With 💙 By Edorh Veronica
+        </p>
+
+    </footer>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
