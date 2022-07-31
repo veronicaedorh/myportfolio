@@ -30,20 +30,23 @@ menuBtn.addEventListener("click", () => {
 
 function active() {
     switch (document.title) {
-        case "Temple Inn - A Reverent Abode":
+        case "My Portfolio - Home":
             document.querySelector("#home").classList.add("active");
             break;
 
-        case "Temple Inn - Make A Reservation":
-            document.querySelector("#reservation").classList.add("active");
+        case "My Portfolio - Design":
+            document.querySelector("#design").classList.add("active");
             break;
 
-        case "Temple Inn - Our Services":
-            document.querySelector("#services").classList.add("active");
+        case "My Portfolio - Research":
+            document.querySelector("#research").classList.add("active");
             break;
 
-        case "Temple Inn - View Temples":
-            document.querySelector("#temples").classList.add("active");
+        case "My Portfolio - About":
+            document.querySelector("#about").classList.add("active");
+            break;
+        case "My Portfolio - Contact":
+            document.querySelector("#contact").classList.add("active");
             break;
     }
 }
