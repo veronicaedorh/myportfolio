@@ -45,9 +45,6 @@ function active() {
         case "My Portfolio - About":
             document.querySelector("#about").classList.add("active");
             break;
-        case "My Portfolio - Contact":
-            document.querySelector("#contact").classList.add("active");
-            break;
     }
 }
 
