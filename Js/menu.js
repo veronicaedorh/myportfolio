@@ -14,7 +14,7 @@ menuBtn.addEventListener("click", () => {
         menuBtn.innerHTML = "&#9776;";
         ul.classList.add("visuallyhidden");
         ul.addEventListener(
-            "transitionend",
+            "transitioned",
             function(e) {
                 dropDown.classList.remove("open");
             }, {
