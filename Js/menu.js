@@ -14,7 +14,7 @@ menuBtn.addEventListener("click", () => {
         menuBtn.innerHTML = "&#9776;";
         ul.classList.add("visuallyhidden");
         ul.addEventListener(
-            "transitioned",
+            "transitionend",
             function(e) {
                 dropDown.classList.remove("open");
             }, {
@@ -25,7 +25,6 @@ menuBtn.addEventListener("click", () => {
         );
     }
 });
-
 // set active
 
 function active() {
