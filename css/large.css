@@ -106,4 +106,13 @@
     .transhero p {
         padding-left: 85px;
     }
+    .about h1,
+    h2,
+    p,
+    ul,
+    li {
+        font-size: 23px;
+        color: rgba(0, 61, 121, 0.9);
+        margin-left: 15px;
+    }
 }
