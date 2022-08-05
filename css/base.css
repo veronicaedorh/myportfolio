@@ -133,11 +133,7 @@ div.hero {
     border-radius: 0px 292px 0px 0px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1 {
     font-family: "Javanese Text", serif;
     font-weight: 400;
     color: white;
@@ -184,7 +180,7 @@ label {
 .transhero p {
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 24px;
     padding-left: 15px;
     width: 270px;
@@ -290,7 +286,7 @@ footer {
 }
 
 .copyright {
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     grid-column: 1/3;
 }
@@ -339,4 +335,137 @@ footer {
     text-align: center;
     color: rgba(0, 61, 121, 0.9);
     font-size: 20px;
+}
+
+
+/* -----------------design page---------------------- */
+
+#temple-main {
+    background: #FBFCFF;
+}
+
+.temples-container {
+    padding-top: 118px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.temples-container h1 {
+    font-size: 40px;
+    margin-bottom: 58px;
+    color: rgba(0, 61, 121, 0.9);
+}
+
+.temple-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 88px;
+    grid-gap: 85px;
+}
+
+
+/* <---------------------------Home Hero ------------------------------------> */
+
+div.hero {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/port.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 97px;
+}
+
+.hero-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.transhero {
+    width: 100%;
+    height: 270px;
+    padding: 55px 0 0 0;
+    background: rgba(0, 61, 121, 0.9);
+    border-radius: 0px 292px 0px 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Javanese Text", serif;
+    font-weight: 400;
+    color: white;
+}
+
+p,
+a,
+li,
+label {
+    font-family: "Jaldi", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.transhero h1 {
+    margin: 0;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 123px;
+    padding-left: 15px;
+}
+
+.hero-socials img {
+    width: 55px;
+}
+
+.hero-socials :nth-child(1) {
+    padding-right: 5px;
+}
+
+.hero-socials {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.transhero h2 {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 66px;
+    padding-left: 15px;
+    margin: -55px 0 0 0;
+    color: white;
+}
+
+.transhero p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    padding-left: 15px;
+    width: 270px;
+    margin: -5px 0 0 0;
+    color: white;
+}
+
+
+/* -----------------research page---------------------- */
+
+
+/* -----------------about page---------------------- */
+
+.about h1,
+h2,
+p,
+ul,
+li {
+    font-size: 23px;
+    color: rgba(0, 61, 121, 0.9);
+    margin-left: 15px;
+}
+
+.resume a {
+    font-size: 23px;
+    color: rgba(0, 61, 121, 0.9);
 }
