@@ -341,7 +341,7 @@ footer {
 }
 
 .temples-container {
-    padding-top: 118px;
+    padding-top: 70px;
     width: 95%;
     margin: 0 auto;
 }
@@ -350,13 +350,6 @@ footer {
     font-size: 40px;
     margin-bottom: 58px;
     color: rgba(0, 61, 121, 0.9);
-}
-
-.temple-cards-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin-bottom: 88px;
-    grid-gap: 85px;
 }
 
 

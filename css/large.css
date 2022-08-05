@@ -83,6 +83,20 @@
         margin: 0 auto;
         margin-bottom: 20px;
     }
+    /* <!-- ------------------------------ Design------------------------ --> */
+    #temple-main {
+        background: #FBFCFF;
+    }
+    .temples-container {
+        padding-top: 95px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .temples-container h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: rgba(0, 61, 121, 0.9);
+    }
     /* <!-- ------------------------------ About------------------------ --> */
     div.hero {
         height: 802px;

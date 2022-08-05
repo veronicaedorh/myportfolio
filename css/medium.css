@@ -1,4 +1,12 @@
 @media only screen and (min-width: 545px) {
+    nav ul li a {
+        padding: 10px 0;
+        font-size: 23px;
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        transition: all 500ms ease-in-out;
+    }
     .hero-container {
         padding-top: 120px;
     }
@@ -50,6 +58,20 @@
         width: 79%;
         margin: 0 auto;
     }
+    /* <!-- ------------------------------ Design------------------------ --> */
+    #temple-main {
+        background: #FBFCFF;
+    }
+    .temples-container {
+        padding-top: 75px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .temples-container h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        color: rgba(0, 61, 121, 0.9);
+    }
     /* <!-- -------------- About -------------------------------- --> */
     .hero-container {
         padding-top: 120px;
@@ -89,6 +111,9 @@
     li {
         font-size: 23px;
         color: rgba(0, 61, 121, 0.9);
+    }
+    .about h2,
+    p {
         margin-left: 15px;
     }
 }
