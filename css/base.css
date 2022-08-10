@@ -40,7 +40,9 @@ header {
 }
 
 header img {
-    width: 50px;
+    width: 155px;
+    margin-top: -55px;
+    margin-bottom: -40px;
 }
 
 nav ul {
@@ -193,6 +195,7 @@ label {
 
 footer {
     background: rgba(0, 61, 121, 0.9);
+    margin-top: 30px;
 }
 
 .footer-container {
@@ -460,6 +463,22 @@ p {
 }
 
 .resume a {
-    font-size: 23px;
+    font-size: 20px;
+    color: #FBFCFF;
+}
+
+.link1 {
+    text-decoration: none;
+    border: solid;
+    border-color: rgba(0, 61, 121, 0.9);
+    padding: 5px 15px 5px 15px;
+    margin-left: 135px;
+    background-color: rgba(0, 61, 121, 0.9);
+    border-radius: 8px 8px;
+}
+
+.link1:hover {
+    background-color: #FBFCFF;
     color: rgba(0, 61, 121, 0.9);
+    border-color: #FBFCFF;
 }

@@ -1,7 +1,9 @@
 @media only screen and (min-width: 1080px) {
     header img {
-        width: 60px;
+        width: 200px;
         padding: 0 50px;
+        margin-top: -75px;
+        margin-bottom: -60px;
     }
     #ham {
         display: none;
@@ -44,6 +46,12 @@
         border-bottom: 3px solid white;
         color: white;
         background-color: transparent;
+    }
+    #home,
+    #design,
+    #research,
+    #about {
+        font-size: 19px;
     }
     div.hero {
         height: 802px;
@@ -128,5 +136,23 @@
         font-size: 23px;
         color: rgba(0, 61, 121, 0.9);
         margin-left: 15px;
+    }
+    .resume a {
+        font-size: 23px;
+        color: #FBFCFF;
+    }
+    .link1 {
+        text-decoration: none;
+        border: solid;
+        border-color: rgba(0, 61, 121, 0.9);
+        padding: 5px 15px 5px 15px;
+        margin-left: 610px;
+        background-color: rgba(0, 61, 121, 0.9);
+        border-radius: 8px 8px;
+    }
+    .link1:hover {
+        background-color: #FBFCFF;
+        color: rgba(0, 61, 121, 0.9);
+        border-color: #FBFCFF;
     }
 }

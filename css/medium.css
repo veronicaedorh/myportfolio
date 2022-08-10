@@ -7,6 +7,11 @@
         display: block;
         transition: all 500ms ease-in-out;
     }
+    header img {
+        width: 190px;
+        margin-top: -65px;
+        margin-bottom: -50px;
+    }
     .hero-container {
         padding-top: 120px;
     }
@@ -115,5 +120,23 @@
     .about h2,
     p {
         margin-left: 15px;
+    }
+    .resume a {
+        font-size: 23px;
+        color: #FBFCFF;
+    }
+    .link1 {
+        text-decoration: none;
+        border: solid;
+        border-color: rgba(0, 61, 121, 0.9);
+        padding: 5px 15px 5px 15px;
+        margin-left: 325px;
+        background-color: rgba(0, 61, 121, 0.9);
+        border-radius: 8px 8px;
+    }
+    .link1:hover {
+        background-color: #FBFCFF;
+        color: rgba(0, 61, 121, 0.9);
+        border-color: #FBFCFF;
     }
 }
