@@ -42,7 +42,7 @@ header {
 header img {
     width: 155px;
     margin-top: -55px;
-    margin-bottom: -40px;
+    margin-bottom: -52px;
 }
 
 nav ul {
@@ -195,7 +195,6 @@ label {
 
 footer {
     background: rgba(0, 61, 121, 0.9);
-    margin-top: 30px;
 }
 
 .footer-container {
@@ -260,33 +259,18 @@ footer {
 
 .footer-socials {
     display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 25px;
+    grid-gap: 46px;
+    margin-left: -15px;
 }
 
-.footer-socials img,
+.footer-socials img {
+    width: 68px;
+}
+
 .footer-socials a {
     width: 65px;
-}
-
-.footer-phone {
-    display: grid;
-    grid-template-columns: 40px 1fr;
-    margin-top: 15px;
-}
-
-.footer-phone img {
-    width: 65px;
-    align-self: center;
-    margin-right: 20px;
-}
-
-.footer-phone p {
-    font-size: 18px;
-    width: 182px;
-    text-decoration: none;
-    margin-left: 20px;
 }
 
 .copyright {
@@ -344,7 +328,7 @@ footer {
 }
 
 .cards {
-    padding-top: 120px;
+    padding-top: 110px;
 }
 
 .card {
@@ -489,9 +473,9 @@ p {
 .link1 {
     text-decoration: none;
     border: solid;
-    border-color: rgba(0, 61, 121, 0.9);
+    border-color: #FBFCFF;
     padding: 5px 15px 5px 15px;
-    margin-left: 135px;
+    margin-left: 148px;
     background-color: rgba(0, 61, 121, 0.9);
     border-radius: 8px 8px;
 }

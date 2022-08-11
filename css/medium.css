@@ -45,13 +45,27 @@
     }
     /* <!-- ------------------------------Footer------------------------ --> */
     .footer-container {
-        width: 650px;
+        min-width: 545px;
         display: grid;
         grid-template-columns: 3fr 1fr;
+    }
+    footer {
+        background: rgba(0, 61, 121, 0.9);
+        margin-top: 0px;
     }
     .footer-address-display {
         margin-bottom: 20px;
         margin-top: 5px;
+    }
+    .footer-socials {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        margin-top: 25px;
+    }
+    .footer-socials img,
+    .footer-socials a {
+        width: 65px;
     }
     /* <!-- -------------- Thank You-------------------------------- --> */
     .reservation-container h3 {
@@ -66,6 +80,16 @@
     /* <!-- ------------------------------ Design------------------------ --> */
     #temple-main {
         background: #FBFCFF;
+    }
+    .temples-container {
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+    .temples-container h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-left: 14px;
+        color: rgba(0, 61, 121, 0.9);
     }
     .cards {
         display: grid;
@@ -145,7 +169,7 @@
     .link1 {
         text-decoration: none;
         border: solid;
-        border-color: rgba(0, 61, 121, 0.9);
+        border-color: #FBFCFF;
         padding: 5px 15px 5px 15px;
         margin-left: 325px;
         background-color: rgba(0, 61, 121, 0.9);
