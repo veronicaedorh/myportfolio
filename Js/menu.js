@@ -29,19 +29,19 @@ menuBtn.addEventListener("click", () => {
 
 function active() {
     switch (document.title) {
-        case "My Portfolio - Home":
+        case "Edorh Veronica Portfolio":
             document.querySelector("#home").classList.add("active");
             break;
 
-        case "My Portfolio - Design":
+        case "Edorh Veronica Portfolio":
             document.querySelector("#design").classList.add("active");
             break;
 
-        case "My Portfolio - Research":
+        case "Edorh Veronica Portfolio":
             document.querySelector("#research").classList.add("active");
             break;
 
-        case "My Portfolio - About":
+        case "Edorh Veronica Portfolio":
             document.querySelector("#about").classList.add("active");
             break;
     }
