@@ -41,7 +41,7 @@ function active() {
             document.querySelector("#research").classList.add("active");
             break;
 
-        case "Edorh Veronica Portfolio - about":
+        case "Edorh Veronica Portfolio - About":
             document.querySelector("#about").classList.add("active");
             break;
     }
