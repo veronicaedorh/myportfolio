@@ -33,15 +33,15 @@ function active() {
             document.querySelector("#home").classList.add("active");
             break;
 
-        case "Edorh Veronica Portfolio":
+        case "Edorh Veronica Portfolio - Design":
             document.querySelector("#design").classList.add("active");
             break;
 
-        case "Edorh Veronica Portfolio":
+        case "Edorh Veronica Portfolio - Research":
             document.querySelector("#research").classList.add("active");
             break;
 
-        case "Edorh Veronica Portfolio":
+        case "Edorh Veronica Portfolio - about":
             document.querySelector("#about").classList.add("active");
             break;
     }
