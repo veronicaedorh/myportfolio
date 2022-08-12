@@ -7,10 +7,23 @@
         display: block;
         transition: all 500ms ease-in-out;
     }
+    header {
+        background: rgba(0, 61, 121, 0.9);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding: 10px 15px;
+        margin: 0;
+        padding-bottom: 11px;
+        text-align: end;
+        position: fixed;
+        width: -webkit-fill-available;
+        z-index: 2;
+    }
     header img {
         width: 190px;
-        margin-top: -79px;
-        margin-bottom: -63px;
+        margin-top: -75px;
+        margin-bottom: -64px;
     }
     .hero-container {
         padding-top: 120px;
