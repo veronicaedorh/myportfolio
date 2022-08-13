@@ -90,6 +90,10 @@
         width: 79%;
         margin: 0 auto;
     }
+    .temple-reservation-form-container {
+        margin-left: 15px;
+        margin-bottom: 38px;
+    }
     /* <!-- ------------------------------ Design------------------------ --> */
     #temple-main {
         background: #FBFCFF;
