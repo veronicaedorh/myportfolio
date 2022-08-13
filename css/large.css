@@ -96,8 +96,9 @@
         margin-left: -15px;
     }
     /* <!-- ------------------------------ Thank You------------------------ --> */
-    .temple-reservation-form-container {
+     .temple-reservation-form-container {
         width: 800px;
+        margin-left: 75px;
     }
     .reservation-container {
         padding-top: 118px;
