@@ -81,15 +81,19 @@
         display: grid;
         grid-template-columns: 3fr 1fr;
     }
-    .footer-socials {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 10px;
-        margin-top: 25px;
-    }
     .footer-socials img,
     .footer-socials a {
         width: 65px;
+    }
+    .footer-address-display {
+        margin-top: 1px;
+    }
+    .footer-socials {
+        display: grid;
+        grid-row: 1fr 1fr 1fr 1fr;
+        margin-top: 18px;
+        grid-gap: 12px;
+        margin-left: -15px;
     }
     /* <!-- ------------------------------ Thank You------------------------ --> */
     .temple-reservation-form-container {
