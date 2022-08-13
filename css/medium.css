@@ -67,14 +67,14 @@
         margin-top: 0px;
     }
     .footer-address-display {
-        margin-bottom: 20px;
-        margin-top: 5px;
+        margin-top: 0;
     }
     .footer-socials {
         display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 10px;
-        margin-top: 25px;
+        margin-top: 18px;
+        grid-gap: 12px;
+        margin-left: -15px;
     }
     .footer-socials img,
     .footer-socials a {
